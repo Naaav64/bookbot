@@ -15,7 +15,7 @@ def get_book_text(path):
         return f.read()
     
 if len(sys.argv) != 2:
-    raise Exception("Usage: python3 main.py /path/to/book>")
+    raise Exception("Proper Usage: python3 main.py /path/to/book/")
     sys.exit(1)
 
 elif len(sys.argv) == 2:
